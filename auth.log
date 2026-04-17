@@ -1,0 +1,221 @@
+Apr 14 01:05:12 ubuntu-prod-01 sshd[22341]: Accepted publickey for damian from 192.168.10.5 port 51204 ssh2: RSA SHA256:abc123xyz
+Apr 14 01:05:12 ubuntu-prod-01 sshd[22341]: pam_unix(sshd:session): session opened for user damian by (uid=0)
+Apr 14 01:48:33 ubuntu-prod-01 sshd[22341]: pam_unix(sshd:session): session closed for user damian
+Apr 14 01:48:33 ubuntu-prod-01 sshd[22341]: Disconnected from user damian 192.168.10.5 port 51204
+Apr 14 01:55:00 ubuntu-prod-01 sudo: damian : TTY=pts/0 ; PWD=/home/damian ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 14 02:01:00 ubuntu-prod-01 cron[1001]: (root) CMD (/usr/bin/find /tmp -mtime +1 -delete)
+Apr 14 02:05:22 ubuntu-prod-01 systemd[1]: Started Daily apt download activities.
+Apr 14 02:13:42 ubuntu-prod-01 sshd[1337]: Invalid user test from 185.220.101.47 port 49947
+Apr 14 02:13:45 ubuntu-prod-01 sshd[1337]: Failed password for invalid user test from 185.220.101.47 port 49947 ssh2
+Apr 14 02:13:47 ubuntu-prod-01 sshd[1337]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=test
+Apr 14 02:13:48 ubuntu-prod-01 sshd[1338]: Invalid user root from 185.220.101.47 port 41898
+Apr 14 02:13:50 ubuntu-prod-01 sshd[1338]: Failed password for invalid user root from 185.220.101.47 port 41898 ssh2
+Apr 14 02:13:52 ubuntu-prod-01 sshd[1339]: Invalid user root from 185.220.101.47 port 50129
+Apr 14 02:13:53 ubuntu-prod-01 sshd[1339]: Failed password for invalid user root from 185.220.101.47 port 50129 ssh2
+Apr 14 02:13:56 ubuntu-prod-01 sshd[1340]: Invalid user postgres from 185.220.101.47 port 58643
+Apr 14 02:13:57 ubuntu-prod-01 sshd[1340]: Failed password for invalid user postgres from 185.220.101.47 port 58643 ssh2
+Apr 14 02:14:00 ubuntu-prod-01 sshd[1341]: Invalid user deploy from 185.220.101.47 port 42568
+Apr 14 02:14:04 ubuntu-prod-01 sshd[1341]: Failed password for invalid user deploy from 185.220.101.47 port 42568 ssh2
+Apr 14 02:14:05 ubuntu-prod-01 sshd[1342]: Invalid user oracle from 185.220.101.47 port 40838
+Apr 14 02:14:07 ubuntu-prod-01 sshd[1342]: Failed password for invalid user oracle from 185.220.101.47 port 40838 ssh2
+Apr 14 02:14:08 ubuntu-prod-01 sshd[1343]: Invalid user root from 185.220.101.47 port 57071
+Apr 14 02:14:12 ubuntu-prod-01 sshd[1343]: Failed password for invalid user root from 185.220.101.47 port 57071 ssh2
+Apr 14 02:14:15 ubuntu-prod-01 sshd[1344]: Invalid user test from 185.220.101.47 port 60720
+Apr 14 02:14:18 ubuntu-prod-01 sshd[1344]: Failed password for invalid user test from 185.220.101.47 port 60720 ssh2
+Apr 14 02:14:21 ubuntu-prod-01 sshd[1344]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=test
+Apr 14 02:14:22 ubuntu-prod-01 sshd[1345]: Invalid user admin from 185.220.101.47 port 56789
+Apr 14 02:14:26 ubuntu-prod-01 sshd[1345]: Failed password for invalid user admin from 185.220.101.47 port 56789 ssh2
+Apr 14 02:14:28 ubuntu-prod-01 sshd[1346]: Invalid user oracle from 185.220.101.47 port 55710
+Apr 14 02:14:32 ubuntu-prod-01 sshd[1346]: Failed password for invalid user oracle from 185.220.101.47 port 55710 ssh2
+Apr 14 02:14:33 ubuntu-prod-01 sshd[1347]: Invalid user deploy from 185.220.101.47 port 50637
+Apr 14 02:14:34 ubuntu-prod-01 sshd[1347]: Failed password for invalid user deploy from 185.220.101.47 port 50637 ssh2
+Apr 14 02:14:35 ubuntu-prod-01 sshd[1348]: Invalid user deploy from 185.220.101.47 port 50072
+Apr 14 02:14:37 ubuntu-prod-01 sshd[1348]: Failed password for invalid user deploy from 185.220.101.47 port 50072 ssh2
+Apr 14 02:14:40 ubuntu-prod-01 sshd[1349]: Invalid user deploy from 185.220.101.47 port 57164
+Apr 14 02:14:42 ubuntu-prod-01 sshd[1349]: Failed password for invalid user deploy from 185.220.101.47 port 57164 ssh2
+Apr 14 02:14:45 ubuntu-prod-01 sshd[1350]: Invalid user postgres from 185.220.101.47 port 43081
+Apr 14 02:14:49 ubuntu-prod-01 sshd[1350]: Failed password for invalid user postgres from 185.220.101.47 port 43081 ssh2
+Apr 14 02:14:52 ubuntu-prod-01 sshd[1351]: Invalid user ubuntu from 185.220.101.47 port 51576
+Apr 14 02:14:55 ubuntu-prod-01 sshd[1351]: Failed password for invalid user ubuntu from 185.220.101.47 port 51576 ssh2
+Apr 14 02:14:56 ubuntu-prod-01 sshd[1351]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=ubuntu
+Apr 14 02:14:57 ubuntu-prod-01 sshd[1352]: Invalid user oracle from 185.220.101.47 port 57795
+Apr 14 02:15:00 ubuntu-prod-01 sshd[1352]: Failed password for invalid user oracle from 185.220.101.47 port 57795 ssh2
+Apr 14 02:15:01 ubuntu-prod-01 sshd[1353]: Invalid user user from 185.220.101.47 port 43869
+Apr 14 02:15:04 ubuntu-prod-01 sshd[1353]: Failed password for invalid user user from 185.220.101.47 port 43869 ssh2
+Apr 14 02:15:06 ubuntu-prod-01 sshd[1354]: Invalid user deploy from 185.220.101.47 port 43251
+Apr 14 02:15:07 ubuntu-prod-01 sshd[1354]: Failed password for invalid user deploy from 185.220.101.47 port 43251 ssh2
+Apr 14 02:15:09 ubuntu-prod-01 sshd[1355]: Invalid user test from 185.220.101.47 port 55930
+Apr 14 02:15:13 ubuntu-prod-01 sshd[1355]: Failed password for invalid user test from 185.220.101.47 port 55930 ssh2
+Apr 14 02:15:16 ubuntu-prod-01 sshd[1356]: Invalid user user from 185.220.101.47 port 52248
+Apr 14 02:15:20 ubuntu-prod-01 sshd[1356]: Failed password for invalid user user from 185.220.101.47 port 52248 ssh2
+Apr 14 02:15:23 ubuntu-prod-01 sshd[1357]: Invalid user root from 185.220.101.47 port 42790
+Apr 14 02:15:24 ubuntu-prod-01 sshd[1357]: Failed password for invalid user root from 185.220.101.47 port 42790 ssh2
+Apr 14 02:15:26 ubuntu-prod-01 sshd[1358]: Invalid user deploy from 185.220.101.47 port 44947
+Apr 14 02:15:28 ubuntu-prod-01 sshd[1358]: Failed password for invalid user deploy from 185.220.101.47 port 44947 ssh2
+Apr 14 02:15:31 ubuntu-prod-01 sshd[1358]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=deploy
+Apr 14 02:15:32 ubuntu-prod-01 sshd[1359]: Invalid user postgres from 185.220.101.47 port 52292
+Apr 14 02:15:36 ubuntu-prod-01 sshd[1359]: Failed password for invalid user postgres from 185.220.101.47 port 52292 ssh2
+Apr 14 02:15:38 ubuntu-prod-01 sshd[1360]: Invalid user ubuntu from 185.220.101.47 port 48412
+Apr 14 02:15:42 ubuntu-prod-01 sshd[1360]: Failed password for invalid user ubuntu from 185.220.101.47 port 48412 ssh2
+Apr 14 02:15:43 ubuntu-prod-01 sshd[1361]: Invalid user ubuntu from 185.220.101.47 port 40500
+Apr 14 02:15:44 ubuntu-prod-01 sshd[1361]: Failed password for invalid user ubuntu from 185.220.101.47 port 40500 ssh2
+Apr 14 02:15:45 ubuntu-prod-01 sshd[1362]: Invalid user test from 185.220.101.47 port 48548
+Apr 14 02:15:49 ubuntu-prod-01 sshd[1362]: Failed password for invalid user test from 185.220.101.47 port 48548 ssh2
+Apr 14 02:15:50 ubuntu-prod-01 sshd[1363]: Invalid user test from 185.220.101.47 port 40880
+Apr 14 02:15:54 ubuntu-prod-01 sshd[1363]: Failed password for invalid user test from 185.220.101.47 port 40880 ssh2
+Apr 14 02:15:56 ubuntu-prod-01 sshd[1364]: Invalid user user from 185.220.101.47 port 48847
+Apr 14 02:16:00 ubuntu-prod-01 sshd[1364]: Failed password for invalid user user from 185.220.101.47 port 48847 ssh2
+Apr 14 02:16:03 ubuntu-prod-01 sshd[1365]: Invalid user user from 185.220.101.47 port 61739
+Apr 14 02:16:05 ubuntu-prod-01 sshd[1365]: Failed password for invalid user user from 185.220.101.47 port 61739 ssh2
+Apr 14 02:16:07 ubuntu-prod-01 sshd[1365]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=user
+Apr 14 02:16:08 ubuntu-prod-01 sshd[1366]: Invalid user oracle from 185.220.101.47 port 49235
+Apr 14 02:16:09 ubuntu-prod-01 sshd[1366]: Failed password for invalid user oracle from 185.220.101.47 port 49235 ssh2
+Apr 14 02:16:12 ubuntu-prod-01 sshd[1367]: Invalid user user from 185.220.101.47 port 47666
+Apr 14 02:16:13 ubuntu-prod-01 sshd[1367]: Failed password for invalid user user from 185.220.101.47 port 47666 ssh2
+Apr 14 02:16:16 ubuntu-prod-01 sshd[1368]: Invalid user admin from 185.220.101.47 port 53411
+Apr 14 02:16:19 ubuntu-prod-01 sshd[1368]: Failed password for invalid user admin from 185.220.101.47 port 53411 ssh2
+Apr 14 02:16:20 ubuntu-prod-01 sshd[1369]: Invalid user deploy from 185.220.101.47 port 51292
+Apr 14 02:16:24 ubuntu-prod-01 sshd[1369]: Failed password for invalid user deploy from 185.220.101.47 port 51292 ssh2
+Apr 14 02:16:25 ubuntu-prod-01 sshd[1370]: Invalid user user from 185.220.101.47 port 42929
+Apr 14 02:16:28 ubuntu-prod-01 sshd[1370]: Failed password for invalid user user from 185.220.101.47 port 42929 ssh2
+Apr 14 02:16:29 ubuntu-prod-01 sshd[1371]: Invalid user user from 185.220.101.47 port 52561
+Apr 14 02:16:32 ubuntu-prod-01 sshd[1371]: Failed password for invalid user user from 185.220.101.47 port 52561 ssh2
+Apr 14 02:16:33 ubuntu-prod-01 sshd[1372]: Invalid user root from 185.220.101.47 port 53071
+Apr 14 02:16:36 ubuntu-prod-01 sshd[1372]: Failed password for invalid user root from 185.220.101.47 port 53071 ssh2
+Apr 14 02:16:39 ubuntu-prod-01 sshd[1372]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=root
+Apr 14 02:16:40 ubuntu-prod-01 sshd[1373]: Invalid user ubuntu from 185.220.101.47 port 43462
+Apr 14 02:16:44 ubuntu-prod-01 sshd[1373]: Failed password for invalid user ubuntu from 185.220.101.47 port 43462 ssh2
+Apr 14 02:16:45 ubuntu-prod-01 sshd[1374]: Invalid user test from 185.220.101.47 port 43272
+Apr 14 02:16:48 ubuntu-prod-01 sshd[1374]: Failed password for invalid user test from 185.220.101.47 port 43272 ssh2
+Apr 14 02:16:51 ubuntu-prod-01 sshd[1375]: Invalid user ubuntu from 185.220.101.47 port 42237
+Apr 14 02:16:52 ubuntu-prod-01 sshd[1375]: Failed password for invalid user ubuntu from 185.220.101.47 port 42237 ssh2
+Apr 14 02:16:53 ubuntu-prod-01 sshd[1376]: Invalid user postgres from 185.220.101.47 port 49291
+Apr 14 02:16:55 ubuntu-prod-01 sshd[1376]: Failed password for invalid user postgres from 185.220.101.47 port 49291 ssh2
+Apr 14 02:16:57 ubuntu-prod-01 sshd[1377]: Invalid user admin from 185.220.101.47 port 42776
+Apr 14 02:16:58 ubuntu-prod-01 sshd[1377]: Failed password for invalid user admin from 185.220.101.47 port 42776 ssh2
+Apr 14 02:17:00 ubuntu-prod-01 sshd[1378]: Invalid user test from 185.220.101.47 port 48291
+Apr 14 02:17:03 ubuntu-prod-01 sshd[1378]: Failed password for invalid user test from 185.220.101.47 port 48291 ssh2
+Apr 14 02:17:04 ubuntu-prod-01 sshd[1379]: Invalid user admin from 185.220.101.47 port 50051
+Apr 14 02:17:06 ubuntu-prod-01 sshd[1379]: Failed password for invalid user admin from 185.220.101.47 port 50051 ssh2
+Apr 14 02:17:08 ubuntu-prod-01 sshd[1379]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=admin
+Apr 14 02:17:09 ubuntu-prod-01 sshd[1380]: Invalid user oracle from 185.220.101.47 port 58543
+Apr 14 02:17:10 ubuntu-prod-01 sshd[1380]: Failed password for invalid user oracle from 185.220.101.47 port 58543 ssh2
+Apr 14 02:17:13 ubuntu-prod-01 sshd[1381]: Invalid user deploy from 185.220.101.47 port 46106
+Apr 14 02:17:17 ubuntu-prod-01 sshd[1381]: Failed password for invalid user deploy from 185.220.101.47 port 46106 ssh2
+Apr 14 02:17:19 ubuntu-prod-01 sshd[1382]: Invalid user test from 185.220.101.47 port 42841
+Apr 14 02:17:21 ubuntu-prod-01 sshd[1382]: Failed password for invalid user test from 185.220.101.47 port 42841 ssh2
+Apr 14 02:17:23 ubuntu-prod-01 sshd[1383]: Invalid user root from 185.220.101.47 port 50254
+Apr 14 02:17:27 ubuntu-prod-01 sshd[1383]: Failed password for invalid user root from 185.220.101.47 port 50254 ssh2
+Apr 14 02:17:28 ubuntu-prod-01 sshd[1384]: Invalid user admin from 185.220.101.47 port 41852
+Apr 14 02:17:29 ubuntu-prod-01 sshd[1384]: Failed password for invalid user admin from 185.220.101.47 port 41852 ssh2
+Apr 14 02:17:31 ubuntu-prod-01 sshd[1385]: Invalid user deploy from 185.220.101.47 port 53319
+Apr 14 02:17:33 ubuntu-prod-01 sshd[1385]: Failed password for invalid user deploy from 185.220.101.47 port 53319 ssh2
+Apr 14 02:17:35 ubuntu-prod-01 sshd[1386]: Invalid user admin from 185.220.101.47 port 42924
+Apr 14 02:17:39 ubuntu-prod-01 sshd[1386]: Failed password for invalid user admin from 185.220.101.47 port 42924 ssh2
+Apr 14 02:17:41 ubuntu-prod-01 sshd[1386]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=admin
+Apr 14 02:17:42 ubuntu-prod-01 sshd[1387]: Invalid user deploy from 185.220.101.47 port 57868
+Apr 14 02:17:43 ubuntu-prod-01 sshd[1387]: Failed password for invalid user deploy from 185.220.101.47 port 57868 ssh2
+Apr 14 02:17:46 ubuntu-prod-01 sshd[1388]: Invalid user root from 185.220.101.47 port 41761
+Apr 14 02:17:49 ubuntu-prod-01 sshd[1388]: Failed password for invalid user root from 185.220.101.47 port 41761 ssh2
+Apr 14 02:17:52 ubuntu-prod-01 sshd[1389]: Invalid user test from 185.220.101.47 port 61001
+Apr 14 02:17:56 ubuntu-prod-01 sshd[1389]: Failed password for invalid user test from 185.220.101.47 port 61001 ssh2
+Apr 14 02:17:59 ubuntu-prod-01 sshd[1390]: Invalid user ubuntu from 185.220.101.47 port 48080
+Apr 14 02:18:02 ubuntu-prod-01 sshd[1390]: Failed password for invalid user ubuntu from 185.220.101.47 port 48080 ssh2
+Apr 14 02:18:05 ubuntu-prod-01 sshd[1391]: Invalid user oracle from 185.220.101.47 port 49735
+Apr 14 02:18:06 ubuntu-prod-01 sshd[1391]: Failed password for invalid user oracle from 185.220.101.47 port 49735 ssh2
+Apr 14 02:18:09 ubuntu-prod-01 sshd[1392]: Invalid user oracle from 185.220.101.47 port 51572
+Apr 14 02:18:11 ubuntu-prod-01 sshd[1392]: Failed password for invalid user oracle from 185.220.101.47 port 51572 ssh2
+Apr 14 02:18:13 ubuntu-prod-01 sshd[1393]: Invalid user test from 185.220.101.47 port 47583
+Apr 14 02:18:14 ubuntu-prod-01 sshd[1393]: Failed password for invalid user test from 185.220.101.47 port 47583 ssh2
+Apr 14 02:18:17 ubuntu-prod-01 sshd[1393]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=test
+Apr 14 02:18:18 ubuntu-prod-01 sshd[1394]: Invalid user root from 185.220.101.47 port 59467
+Apr 14 02:18:19 ubuntu-prod-01 sshd[1394]: Failed password for invalid user root from 185.220.101.47 port 59467 ssh2
+Apr 14 02:18:21 ubuntu-prod-01 sshd[1395]: Invalid user deploy from 185.220.101.47 port 57878
+Apr 14 02:18:23 ubuntu-prod-01 sshd[1395]: Failed password for invalid user deploy from 185.220.101.47 port 57878 ssh2
+Apr 14 02:18:24 ubuntu-prod-01 sshd[1396]: Invalid user test from 185.220.101.47 port 48056
+Apr 14 02:18:28 ubuntu-prod-01 sshd[1396]: Failed password for invalid user test from 185.220.101.47 port 48056 ssh2
+Apr 14 02:18:29 ubuntu-prod-01 sshd[1437]: Failed password for damian from 185.220.101.47 port 43566 ssh2
+Apr 14 02:18:31 ubuntu-prod-01 sshd[1437]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=damian
+Apr 14 02:18:32 ubuntu-prod-01 sshd[1438]: Failed password for damian from 185.220.101.47 port 47187 ssh2
+Apr 14 02:18:34 ubuntu-prod-01 sshd[1439]: Failed password for damian from 185.220.101.47 port 48332 ssh2
+Apr 14 02:18:36 ubuntu-prod-01 sshd[1440]: Failed password for damian from 185.220.101.47 port 51807 ssh2
+Apr 14 02:18:38 ubuntu-prod-01 sshd[1441]: Failed password for damian from 185.220.101.47 port 43137 ssh2
+Apr 14 02:18:43 ubuntu-prod-01 sshd[1442]: Failed password for damian from 185.220.101.47 port 48032 ssh2
+Apr 14 02:18:45 ubuntu-prod-01 sshd[1442]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=damian
+Apr 14 02:18:46 ubuntu-prod-01 sshd[1443]: Failed password for damian from 185.220.101.47 port 56455 ssh2
+Apr 14 02:18:49 ubuntu-prod-01 sshd[1444]: Failed password for damian from 185.220.101.47 port 51363 ssh2
+Apr 14 02:18:53 ubuntu-prod-01 sshd[1445]: Failed password for damian from 185.220.101.47 port 61542 ssh2
+Apr 14 02:18:56 ubuntu-prod-01 sshd[1446]: Failed password for damian from 185.220.101.47 port 56964 ssh2
+Apr 14 02:19:00 ubuntu-prod-01 sshd[1447]: Failed password for damian from 185.220.101.47 port 40958 ssh2
+Apr 14 02:19:05 ubuntu-prod-01 sshd[1447]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=damian
+Apr 14 02:19:06 ubuntu-prod-01 sshd[1448]: Failed password for damian from 185.220.101.47 port 43563 ssh2
+Apr 14 02:19:08 ubuntu-prod-01 sshd[1449]: Failed password for damian from 185.220.101.47 port 61898 ssh2
+Apr 14 02:19:11 ubuntu-prod-01 sshd[1450]: Failed password for damian from 185.220.101.47 port 56955 ssh2
+Apr 14 02:19:15 ubuntu-prod-01 sshd[1451]: Failed password for damian from 185.220.101.47 port 54193 ssh2
+Apr 14 02:19:20 ubuntu-prod-01 sshd[1452]: Failed password for damian from 185.220.101.47 port 57773 ssh2
+Apr 14 02:19:25 ubuntu-prod-01 sshd[1452]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=damian
+Apr 14 02:19:26 ubuntu-prod-01 sshd[1453]: Failed password for damian from 185.220.101.47 port 61532 ssh2
+Apr 14 02:19:31 ubuntu-prod-01 sshd[1454]: Failed password for damian from 185.220.101.47 port 59253 ssh2
+Apr 14 02:19:35 ubuntu-prod-01 sshd[1455]: Failed password for damian from 185.220.101.47 port 56234 ssh2
+Apr 14 02:19:40 ubuntu-prod-01 sshd[1456]: Failed password for damian from 185.220.101.47 port 56401 ssh2
+Apr 14 02:19:46 ubuntu-prod-01 sshd[1457]: Failed password for damian from 185.220.101.47 port 58545 ssh2
+Apr 14 02:19:51 ubuntu-prod-01 sshd[1457]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=damian
+Apr 14 02:19:52 ubuntu-prod-01 sshd[1458]: Failed password for damian from 185.220.101.47 port 58027 ssh2
+Apr 14 02:19:57 ubuntu-prod-01 sshd[1459]: Failed password for damian from 185.220.101.47 port 55095 ssh2
+Apr 14 02:20:03 ubuntu-prod-01 sshd[1460]: Failed password for damian from 185.220.101.47 port 53622 ssh2
+Apr 14 02:20:08 ubuntu-prod-01 sshd[1461]: Failed password for damian from 185.220.101.47 port 54203 ssh2
+Apr 14 02:20:13 ubuntu-prod-01 sshd[1462]: Failed password for damian from 185.220.101.47 port 50907 ssh2
+Apr 14 02:20:16 ubuntu-prod-01 sshd[1462]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=damian
+Apr 14 02:20:17 ubuntu-prod-01 sshd[1463]: Failed password for damian from 185.220.101.47 port 58765 ssh2
+Apr 14 02:20:23 ubuntu-prod-01 sshd[1464]: Failed password for damian from 185.220.101.47 port 42615 ssh2
+Apr 14 02:20:28 ubuntu-prod-01 sshd[1465]: Failed password for damian from 185.220.101.47 port 40267 ssh2
+Apr 14 02:20:34 ubuntu-prod-01 sshd[1466]: Failed password for damian from 185.220.101.47 port 42412 ssh2
+Apr 14 02:20:37 ubuntu-prod-01 sshd[1467]: Failed password for damian from 185.220.101.47 port 41563 ssh2
+Apr 14 02:20:41 ubuntu-prod-01 sshd[1467]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=damian
+Apr 14 02:20:42 ubuntu-prod-01 sshd[1468]: Failed password for damian from 185.220.101.47 port 52902 ssh2
+Apr 14 02:20:48 ubuntu-prod-01 sshd[1469]: Failed password for damian from 185.220.101.47 port 46775 ssh2
+Apr 14 02:20:52 ubuntu-prod-01 sshd[1470]: Failed password for damian from 185.220.101.47 port 51456 ssh2
+Apr 14 02:20:56 ubuntu-prod-01 sshd[1471]: Failed password for damian from 185.220.101.47 port 54537 ssh2
+Apr 14 02:20:59 ubuntu-prod-01 sshd[1472]: Failed password for damian from 185.220.101.47 port 48706 ssh2
+Apr 14 02:21:02 ubuntu-prod-01 sshd[1472]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=damian
+Apr 14 02:21:03 ubuntu-prod-01 sshd[1473]: Failed password for damian from 185.220.101.47 port 42718 ssh2
+Apr 14 02:21:06 ubuntu-prod-01 sshd[1474]: Failed password for damian from 185.220.101.47 port 52274 ssh2
+Apr 14 02:21:10 ubuntu-prod-01 sshd[1475]: Failed password for damian from 185.220.101.47 port 60899 ssh2
+Apr 14 02:21:16 ubuntu-prod-01 sshd[1476]: Failed password for damian from 185.220.101.47 port 44471 ssh2
+Apr 14 02:21:18 ubuntu-prod-01 sshd[1477]: Failed password for damian from 185.220.101.47 port 53628 ssh2
+Apr 14 02:21:21 ubuntu-prod-01 sshd[1477]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=damian
+Apr 14 02:21:22 ubuntu-prod-01 sshd[1478]: Failed password for damian from 185.220.101.47 port 48671 ssh2
+Apr 14 02:21:24 ubuntu-prod-01 sshd[1479]: Failed password for damian from 185.220.101.47 port 54160 ssh2
+Apr 14 02:21:26 ubuntu-prod-01 sshd[1480]: Failed password for damian from 185.220.101.47 port 53278 ssh2
+Apr 14 02:21:30 ubuntu-prod-01 sshd[1481]: Failed password for damian from 185.220.101.47 port 61641 ssh2
+Apr 14 02:21:34 ubuntu-prod-01 sshd[1537]: PAM 5 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.47 user=damian
+Apr 14 02:21:37 ubuntu-prod-01 sshd[1537]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 14 02:21:42 ubuntu-prod-01 fail2ban.actions[892]: WARNING [sshd] Ban 185.220.101.47
+Apr 14 02:21:44 ubuntu-prod-01 kernel: [iptables] IN=eth0 OUT= MAC=xx:xx:xx SRC=185.220.101.47 DST=10.0.0.5 PROTO=TCP DPT=22 DROP
+Apr 14 02:22:14 ubuntu-prod-01 sshd[1637]: Failed password for damian from 45.141.84.119 port 46829 ssh2
+Apr 14 02:22:17 ubuntu-prod-01 sshd[1638]: Failed password for damian from 45.141.84.119 port 45752 ssh2
+Apr 14 02:22:21 ubuntu-prod-01 sshd[1639]: Failed password for damian from 45.141.84.119 port 50702 ssh2
+Apr 14 02:22:27 ubuntu-prod-01 sshd[1640]: Failed password for damian from 45.141.84.119 port 58078 ssh2
+Apr 14 02:22:30 ubuntu-prod-01 sshd[1641]: Failed password for damian from 45.141.84.119 port 49538 ssh2
+Apr 14 02:22:34 ubuntu-prod-01 sshd[1642]: Failed password for damian from 45.141.84.119 port 55962 ssh2
+Apr 14 02:22:41 ubuntu-prod-01 sshd[1643]: Failed password for damian from 45.141.84.119 port 41290 ssh2
+Apr 14 02:22:48 ubuntu-prod-01 sshd[1644]: Failed password for damian from 45.141.84.119 port 51745 ssh2
+Apr 14 02:22:56 ubuntu-prod-01 sshd[1645]: Failed password for damian from 45.141.84.119 port 56500 ssh2
+Apr 14 02:23:02 ubuntu-prod-01 sshd[1646]: Failed password for damian from 45.141.84.119 port 59840 ssh2
+Apr 14 02:23:08 ubuntu-prod-01 sshd[1647]: Failed password for damian from 45.141.84.119 port 51748 ssh2
+Apr 14 02:23:15 ubuntu-prod-01 sshd[1648]: Failed password for damian from 45.141.84.119 port 47881 ssh2
+Apr 14 02:23:20 ubuntu-prod-01 sshd[1649]: Failed password for damian from 45.141.84.119 port 51165 ssh2
+Apr 14 02:23:27 ubuntu-prod-01 sshd[1650]: Failed password for damian from 45.141.84.119 port 40528 ssh2
+Apr 14 02:23:31 ubuntu-prod-01 sshd[1651]: Failed password for damian from 45.141.84.119 port 42058 ssh2
+Apr 14 02:23:39 ubuntu-prod-01 sshd[1737]: Accepted password for damian from 45.141.84.119 port 44818 ssh2
+Apr 14 02:23:40 ubuntu-prod-01 sshd[1737]: pam_unix(sshd:session): session opened for user damian by (uid=0)
+Apr 14 02:23:43 ubuntu-prod-01 sshd[1737]: New session 12 of user damian
+Apr 14 02:23:48 ubuntu-prod-01 sudo: damian : TTY=pts/1 ; PWD=/home/damian ; USER=root ; COMMAND=/usr/bin/whoami
+Apr 14 02:23:50 ubuntu-prod-01 sudo: damian : TTY=pts/1 ; PWD=/home/damian ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Apr 14 02:23:54 ubuntu-prod-01 sudo: damian : TTY=pts/1 ; PWD=/home/damian ; USER=root ; COMMAND=/bin/bash
+Apr 14 02:23:56 ubuntu-prod-01 su[1738]: Successful su for root by damian
+Apr 14 02:23:57 ubuntu-prod-01 su[1738]: + pts/1 damian:root
+Apr 14 02:24:00 ubuntu-prod-01 useradd[1742]: new user: name=backdoor, UID=0, GID=0, home=/root, shell=/bin/bash
+Apr 14 02:24:05 ubuntu-prod-01 sshd[1737]: Disconnected from user damian 45.141.84.119 port 44818
+Apr 14 02:24:06 ubuntu-prod-01 sshd[1737]: pam_unix(sshd:session): session closed for user damian
+Apr 14 02:24:16 ubuntu-prod-01 fail2ban.actions[892]: WARNING [sshd] Ban 45.141.84.119
